@@ -55,4 +55,5 @@ total_value = sum(rec['value'] for rec in records)
 print("\nUpdated Records:")
 for rec in records:
     print(rec)
+
 print(f"Total of 'value' field: {total_value}")
